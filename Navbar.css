@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    background-color: rgba(176, 181, 185, 0.87);
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    
+}
+

@@ -1,0 +1,140 @@
+.App {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    color: gray;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .champion-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .champion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+  }
+  
+  .champion img {
+    max-width: 75%;
+    margin-top: 5px;
+    height: auto;
+    
+  }
+  
+  .champion.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+  }
+  
+  
+  .tier{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .tier-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  
+  .drop-ban-areas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 15px;
+  
+  }
+  
+  
+  
+  .drop-area{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3498db;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .drop-area p{
+    margin: 0;
+    color: black;
+  }
+  
+  .blue-team{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .red-team{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-size: 30px;
+  }
+  
+  .ban-area p {
+    margin: 0;
+    color: red;
+  }
+  
+  .drop-area img,
+  .ban-area img {
+    max-width: auto;
+    height: auto;
+  }
+  
+  .functions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .functions button{
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #3498db;
+    font-weight: bold;
+    color: white;
+  }
+  
